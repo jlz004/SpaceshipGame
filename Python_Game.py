@@ -128,7 +128,7 @@ def draw_winner(text):
     WIN.blit(draw_text, (WIDTH/2 - draw_text.get_width() /
                          2, HEIGHT/2 - draw_text.get_height() /2))
     pygame.display.update()
-    pygame.time.delay(5000)
+    pygame.time.delay(6500)
 def main():
     # Define rectangles to be able to move the spaceship.
     red = pygame.Rect(700, 300, SPACESHIP_WIDTH, SPACESHIP_HEIGHT)
